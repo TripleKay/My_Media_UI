@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+
+    <!-- -------------------------------fontawesome------------------------------------- -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- -------------------------------custom css------------------------------------- -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <!-- -------------------------------custom scss------------------------------------- -->
+    <link rel="stylesheet" href="scss/custom.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid bg-dark shadow-sm my-nav-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        
+                            <a class="navbar-brand d-flex align-items-center" href="#">
+                                <img src="resources/img/mlogo.png" class="img-fluid" alt="" srcset="" style="width: 50px ;">
+
+                                <h3 class="mb-0 ms-2 fw-bolder text-info">MY MEDIA</h3>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                <a class="nav-link text-uppercase active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#">Contact Us</a>
+                                </li>
+                                
+                            </ul>
+                            </div>
+                            <div class="d-none d-md-block">
+                                <a href="" class=" btn btn-outline-info">Login</a>
+                                <a href="" class=" btn btn-info text-white">Register</a>
+                            </div>
+                        
+                        </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="py-5 vh-100" style="background-color: #0e1217;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="mb-0 text-white-50">Trending Blogs</h4>
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-8">
+                    <div class="row">
+                        <!-- <div class="col-6">
+                            <div class="card mb-4 overflow-hidden shadow-lg position-relative" style="height: 350px ; border-radius: 15px ; border: 1px solid #ffffff40; background-color: #1c1f26">
+                              <img src="img/2048.jpeg" class="img-fluid " alt="" srcset="" style="height: 350px ;">
+                              <div class="card-body position-absolute" style="bottom: 0px ;">
+                                  <div class="badge py-2 rounded-0 shadow  bg-info">prgramming</div>
+                                  <h5 class="text-white my-3">How to learn programming ?</h5>
+                              </div>
+                            </div>
+                        </div> -->
+                        <div class="col-12">
+                            <div class="card mb-4 overflow-hidden shadow-lg d-flex flex-row" style="height: 300px ;background-color: transparent">
+                                <img src="resources/img/2048.jpeg" class="img-fluid " alt="" srcset="" width="40%" >
+                                <div class="card-body m-auto" style="width: 60%">
+                                    <div class="badge py-2 rounded-0 shadow  bg-info">prgramming</div>
+                                    <h5 class="text-white my-3">How to learn programming ?</h5>
+                                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi officiis rem dolorem? A atque, fuga libero deserunt in corrupti doloribus eaque labore quos et harum, repellat commodi adipisci? Molestiae, suscipit.</p>
+                                    <a href="" class="text-danger">Read More <i class="fas fa-arrow-right ms-3"></i></a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card mb-4 overflow-hidden shadow-lg d-flex flex-row" style="height: 300px ;background-color: transparent;border: 1px solid #ffffff40;">
+                                <img src="resources/img/2048.jpeg" class="img-fluid " alt="" srcset="" width="40%" >
+                                <div class="card-body m-auto" style="width: 60%">
+                                    <div class="badge py-2 rounded-0 shadow  bg-info">prgramming</div>
+                                    <h5 class="text-white my-3">How to learn programming ?</h5>
+                                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi officiis rem dolorem? A atque, fuga libero deserunt in corrupti doloribus eaque labore quos et harum, repellat commodi adipisci? Molestiae, suscipit.</p>
+                                    <a href="" class="text-danger">Read More <i class="fas fa-arrow-right ms-3"></i></a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card vh-100" style="background-color: transparent ; border-radius: 15px ;">
+                        <div class="card" style="background-color: transparent ;">
+                            <div class="card-body">
+                                <form action="" method="GET" class="mb-4">
+                                    <div class="d-flex pizza-search-bar" style="border-radius: 10px; border: 1px solid #00a8f1">
+                                        <input type="text" name="search" class="form-control  bg-transparent border-0" placeholder="search  ....">
+                                        <button class="btn px-1 pe-2"><i class="fas fa-search text-info" style="font-size: 20px ;"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                                <h5 class="text-white">Categories</h5>
+                                <hr class="bg-secondary">
+                                <div class="">
+                                    <a href="" class="btn text-white-50">Programming</a>
+                                    <hr class="bg-secondary">
+                                    <a href="" class="btn text-white-50">Programming</a>
+                                    <hr class="bg-secondary">
+                                    <a href="" class="btn text-white-50">Programming</a>
+                                    <hr class="bg-secondary">
+                                    <a href="" class="btn text-white-50">Programming</a>
+                                    <hr class="bg-secondary">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="background-color: transparent ;">
+                            <div class="card-body">
+                                <h5 class="text-white">Tags</h5>
+                                <hr class="bg-secondary">
+                                <div class="">
+                                    <div class="btn btn-dark shadow-lg mb-3 me-2">#Tech</div>
+                                    <div class="btn btn-dark shadow-lg mb-3 me-2">#Prgramming</div>
+                                    <div class="btn btn-dark shadow-lg mb-3 me-2">#economics</div>
+                                    <div class="btn btn-dark shadow-lg mb-3 me-2">#others</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- -------------------------------jquery------------------------------------- -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- -------------------------------bootstrap------------------------------------- -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        /*
+        $(document).ready(function() { 
+            //sticky nav 
+            $('.pizza-section').waypoint(function(direction) {
+        
+                if(direction == 'down') {
+                    $('.my-nav-bar').addClass('sticky');
+                } else {
+                    $('.my-nav-bar').removeClass('sticky'); 
+                }
+                
+            },{
+                offset: '150px'
+            })
+        })
+        */
+    </script>
+</body>
+</html>
